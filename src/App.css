@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ul{
+  list-style: none;
+}
+
+
+form{
+  margin-top: 50px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+form input{
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+form button{
+  background: #fff;
+  color:#000;
+}
+.student-section{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.student-section .student-list{
+  border: 1px solid #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  flex: 1 1 350px;
+}
+.student-section .all-student{
+  flex: 2 1 350px;
+}
+.student-list ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0px;
+  
+}
+
+.student-list ul li button{
+  margin-left: 10px;
+}
+
+.accident-button{
+  background: #d81919;
+}
+
+.present-btn{
+  background: #008407;
+}
+.absent-btn{
+  background: #d81919;
+}
